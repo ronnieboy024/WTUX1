@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  background-color: grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body p {
+    margin: 0;
+}
+body h1{
+    margin: 0;
+}
+.vliegtuig {
+  width: 10em;
+  height: 4em;
+  padding: 10px;
+  opacity: 80%;
+}
+
+.navigatie {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+background-color: orange;
+  position: relative;
+  z-index: 6;
+}
+
+.navigatie li:hover{
+    background-color: yellow;
+}
+
+.navigatie > ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigatie li {
+  padding: 1em;
+}
+
+.navigatie a {
+  text-decoration: none;
+  color: black;
+}
+
+.SubItems {
+  padding: 0;
+  margin-left: -1em;
+  display: none;
+}
+
+ul li:hover > .SubItems {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  background-color: orange;
+  top: 4.2em;
+  width: 8em;
+}
+.SubItems li:hover{
+    background-color: yellow;
+}
+
+
+.Textveld{
+    height: 50em;
+    width: 55em;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.Welkom{
+    background-color: whitesmoke;
+    padding-top: 0;
+    }
+    
+    .Achterblok{
+    background-color: whitesmoke;
+    }
+    
+    .KomendeVluchten ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .KomendeVluchten a{
+        background-color: lightgrey;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding: 8px;
+    }
+
+    
+    
